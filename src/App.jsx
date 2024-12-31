@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //IMPORTACION DE COMPONENTES
 import Layout from "./components/Layout";
-import LandingPage from "./Pages/LandingPage";
+import LandingPage from "./pages/LandingPage"; // Ensure the path is correct
 
 function App() {
   return (
